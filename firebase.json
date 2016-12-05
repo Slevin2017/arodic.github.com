@@ -6,7 +6,11 @@
     "public": "build/bundled",
     "trailingSlash": false,
     "cleanUrls": false,
-    "ignore": [],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
         "source": "**",
